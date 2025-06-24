@@ -103,6 +103,102 @@ section {
 
 
 
+.nav-links-mobile a { /*Estamos chamando as duas âncoras para estilização, tanto da Versão Desktop quanto da versão Mobile.*/
+    color: white; /*A cor da letra*/
+    text-decoration: none; /*E sem sublinhado*/
+}
+
+
+
+.mobile-menu { /*Estilização da caixa Mobile quando aberta*/
+    display: none; /*Display: Nenhum*/
+    position: fixed; /*Posição fixa na parte direita da página*/
+    top: 0; /*Superior em 0 fazendo a caixa encostar ao topo*/
+    right: 0; /*Direita em 0 fazendo a caixa encostar a direita*/
+    width: 60%; /*Largura em porcentagem da caixa*/
+    height: 100%; /*Altura de 100% da tela*/
+    background-color: rgb(0, 0, 0); /*Cor de fundo*/
+    flex-direction: column; /*direção dos itens dentro da caixa */
+    align-items: center; /*Alinhamento na vertical do itens*/
+    font-size: 1.8rem; /*tamanho da letra dentro da caixa*/
+}
+
+.nav-links-mobile { /*Lista não ordenada da versão mobile*/
+    display: flex; /*Tornando os itens (LISTAS) flexíveis*/
+    flex-direction: column; /*Estamos direcionando o posicionamento dessas listas*/
+    text-align: end; /*Alinhando o texto ao centro*/
+    gap: 1.2rem; /*Espaço entre as listas */
+    /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
+    list-style: none; /*Estilo de lista desabilitado*/
+    /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
+}
+
+.nav-links-mobile li { /*listas da versão Mobile*/
+    border-bottom: 1px solid #787272; /*Bordar inferior de cada lista*/
+    padding-bottom: 1.2rem; /*Tamanho da borda*/
+}
+
+.hamburger,
+.close { /*Estilizando os botões de abertura e fechamento*/
+    font-size: 24px; /*Tamanho do elemento*/
+    background: none; /*Removido o Background*/
+    border: none; /*BORDA NENHUMAAAAAAA*/
+    color: white; /*cor do elemento*/
+    cursor: pointer; /*Cursor Habilitado*/
+    /* display: none; Escondendo os botões */
+}
+
+
+.close {
+    margin-top: 20px;/*Espaçamento superior do X */
+    margin-right: 20px; /*Espaçamento a direita do X*/
+    display: block; /*Formatação da Imagem em bloco*/
+    align-self: end; /*Alinhamento do botão*/
+}
+
+
+.flex { /*ELEMENTO USADO NO JS*/
+    display: flex; /*Tornando item flexível e visível.*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

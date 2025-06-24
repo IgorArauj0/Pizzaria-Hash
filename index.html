@@ -19,7 +19,7 @@
         <nav>
             <a href="#home">HOME</a>
             <a href="#about">SOBRE</a>
-            <a href="#menu">MENU</a>
+            <a href="#menu" class="hamburger" id="hamburgerButton">MENU</a>
             <a href="#products">PROMOÇÕES</a>
             <a href="#review">AVALIAÇÕES</a>
         </nav>
@@ -41,6 +41,42 @@
             <div id="menu-btn">
                 <ion-icon name="menu"></ion-icon>
             </div>
+        </div>
+
+
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <!-- Botão para ser utilizado para fechamento da lista -->
+            <button id="closeButton" class="close">
+                <i class="fas fa-times"></i>
+            </button>
+  
+            <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+            <ul class="nav-links-mobile">
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+            </ul>
+  
+  
+            <div id="btn-mobile" class="cad-mobile">
+              <button>
+                <a href="form.html" target="_blank">
+        
+                  <!-- <img src="img/user.png" alt=""> -->
+        
+                  <p>Cadastre-se</p>
+                </a>
+              </button>
+            </div>
+            <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
         </div>
 
     </header>
@@ -444,7 +480,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
